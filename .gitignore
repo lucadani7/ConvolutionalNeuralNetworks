@@ -1,0 +1,75 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+ml/data/
+
+ml/checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+*.onnx
+*.onnx.data
+!web/public/models/*.onnx
+
+runs/
+wandb/
+lightning_logs/
+mlruns/
+
+# ---------------------------------------------------------
+#  Node / pnpm / Next.js  (web/)
+# ---------------------------------------------------------
+node_modules/
+.pnpm-store/
+.pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Next.js
+.next/
+out/
+next-env.d.ts
+
+# TypeScript
+*.tsbuildinfo
+
+# Teste
+coverage/
+
+# Vercel
+.vercel/
+
+.env
+.env.*
+!.env.example
+
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.swp
+*~
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+*.log
